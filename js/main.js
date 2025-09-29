@@ -1,4 +1,4 @@
-// Elements
+
 const photoInput = document.getElementById('photoInput');
 const avatar = document.getElementById('avatar');
 const editBtn = document.getElementById('editBtn');
@@ -6,16 +6,14 @@ const saveBtn = document.getElementById('saveBtn');
 const resetBtn = document.getElementById('resetBtn');
 const updatedAt = document.getElementById('updatedAt');
 
-// Editable fields
 const editableIds = ['nameField','roleField','bioField','locField','emailField','workField','skillsField'];
 const initialValues = {};
 
-// Save initial values
 editableIds.forEach(id => {
   initialValues[id] = document.getElementById(id).innerText;
 });
 
-// Photo preview
+
 photoInput.addEventListener('change', (e) => {
   const file = e.target.files[0];
   if (!file) return;
@@ -31,7 +29,7 @@ photoInput.addEventListener('change', (e) => {
   reader.readAsDataURL(file);
 });
 
-// Toggle edit mode
+
 let editing = false;
 editBtn.addEventListener('click', () => {
   editing = true;
