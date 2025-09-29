@@ -4,21 +4,29 @@ It contains my personal information, biography, and educational background in a 
 
 List of Portfolio
 ⦁	portfolio/html
+
 ⦁	css/styles
+
 ⦁	js/main
+
 ⦁	assets/images
 
 Link to Live Site:
 
 Tech Used:
 ⦁	HTML
+
 ⦁	CSS
+
 ⦁	JavaScript
+
 ⦁	Git & GitHub
 
 Contact Info:
 Email: miajoyfernandez004@gmail.com
+
 GitHub: @CrazyMia1 (https://github.com/CrazyMia1) 
+
 https://github.com/CrazyMia1/Mia-portfolio
 
 Reflection: 
